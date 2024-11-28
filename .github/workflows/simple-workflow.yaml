@@ -1,9 +1,9 @@
 name : Simple workflow
 
 on:
-  workflow_dispatch:
-  schedule:
-    -	cron : '0 * * * *'
+  #workflow_dispatch:
+  #schedule:
+  #  -	cron : '0 * * * *'
     
 jobs:
   main_job:
